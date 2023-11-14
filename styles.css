@@ -1,10 +1,50 @@
-body {
-    background-color: black;
-}
 .post {
     background-color: white;
     width: 400px;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+*{
+    border: 1px dashed red;
+    min-height: 10px;
+}
+.profile {
+    margin: 0;
+    width: 100%;
+    
+}
+.post-icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
+}
+.post-header {
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    
+    
+}
+.post-header p {
+    padding: 0;
+    margin: 0;
+}
+.post-body {
+    margin: 0px 5px;
+}
+h4 {
+    max-height: fit-content;
+
+}
+.profile-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.fa-brands {
+    font-size: 30px;
+    
 }
